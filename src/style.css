@@ -1,0 +1,67 @@
+.input {
+    background-color: black; /* Set background color to black */
+    color: #2594c1; /* Set text color to dark green (#006400) */
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 90%;
+    font-family: Space Mono;
+  }
+  .shell-prompt{
+    font-family: Space Mono;
+  }
+  
+  /* Style for the submit button */
+  .input_submit {
+    right: 0;
+    background-color: black; 
+    color: #2594c1; 
+    border: none; 
+    cursor: pointer;
+    font-family: Space Mono;
+  }
+  
+  /* Style for text input box */
+  .input_box {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to dark green (#006400) */
+    border: none; /* Remove input box border */
+    padding: 5px; /* Add some padding for better appearance */
+  }
+
+  .input_box:focus {
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0);
+    outline: none;
+  }
+
+  .todos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .todos_single{
+    display: flex;
+    width: 29;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+.todos_single--text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.todos_single--text:focus {
+  outline: none;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
