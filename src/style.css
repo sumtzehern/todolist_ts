@@ -4,7 +4,7 @@
     display: flex;
     position: relative;
     align-items: center;
-    width: 90%;
+    width: 95%;
     font-family: Space Mono;
   }
   .shell-prompt{
@@ -34,11 +34,26 @@
     outline: none;
   }
 
+  .container {
+    display: flex;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
   .todos {
     display: flex;
-    justify-content: space-evenly;
-    width: 90%;
-    flex-wrap: wrap;
+    width: 47.5%;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    /* background-color: black; */
+  }
+
+  .todos_heading {
+    color: #ff9900;
+    font-size: 20px;
   }
 
   .todos_single{
@@ -47,13 +62,22 @@
     border-radius: 10px;
     padding: 20px;
     margin-top: 15px;
+    border: 2px solid #2594c1;
+    transition: 0.2s;
+  }
+
+  .todos_single:hover {
+    box-shadow: 0 0 5px beige;
+    transform: scale(1.03);
   }
 
 .todos_single--text {
+  background-color: black;
   flex: 1;
   padding: 5px;
-  border: none;
+  border-radius: 10px;
   font-size: 20px;
+  color: darkgreen;
 }
 
 .todos_single--text:focus {
@@ -64,4 +88,32 @@
   margin-left: 10px;
   font-size: 25px;
   cursor: pointer;
+  color: darkcyan;
 }
+
+@media(max-width: 1100px) {
+  .todos {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .input {
+    width: 95%;
+  }
+  .todos {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    width: 95%;
+    flex-direction: column;
+  }
+
+}
+
+/*background color for completed task*/
+/* .remove {
+  background-color: #981c0e;
+} */
