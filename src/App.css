@@ -25,3 +25,11 @@
     font-size: 35px;
   }
 }
+
+.dragactive {
+  background-color: orangered;
+}
+
+.dragcomplete {
+  background-color: coral;
+}
