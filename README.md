@@ -1,5 +1,5 @@
 # Todo Web Application
-<img wid<img width="500" alt="todolist interface" src="https://github.com/sumtzehern/todolist_ts/assets/77678835/e5d1c00f-49ec-474b-844e-af56cf13e170">
+<img width="650" alt="Screenshot 2023-10-07 at 11 48 59 PM" src="https://github.com/sumtzehern/todolist_ts/assets/77678835/741cfb07-4938-40f3-9008-716b4d812d09">
 
 ## Inspiration
 The need for an efficient and user-friendly to-do list application inspired the creation of this project. I recognized the importance of having a tool that allows users to seamlessly create, edit, prioritize, and manage their tasks. Drawing inspiration from the everyday challenges of task management, I aimed to develop a solution that simplifies the process and enhances productivity.
