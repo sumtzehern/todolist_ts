@@ -62,7 +62,7 @@ const App: React.FC = () => {
         <TodoList
           todos={todos}
           setTodos={setTodos}
-          completedTodos={CompletedTodos}
+          CompletedTodos={CompletedTodos}
           setCompletedTodos={setCompletedTodos}
         />
       </div>
